@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sreevani's Portfolio (HTML&CSS)</title>
+        <style>
+        body{
+            background-color: rgb(245, 238, 140);
+        }
+        h1 { 
+        font-style: oblique; 
+        color: rgb(240, 10, 144);
+        margin : 40px;
+        text-align: center;
+        font-size: 50px;
+        }
+        h4,h5 {
+            font-style: oblique;
+            color :rgb(223, 27, 223);
+            margin: 30px;
+            font-weight: bold;
+            font-size: 30px; 
+        }
+        p {
+            font-style: normal;
+            color :rgb(11, 11, 102);
+            margin: 30px;
+            font-size: 26px; 
+        }
+        a {
+            padding: 14px 14px;
+            font-weight: bold;
+            font-size: 20px;
+            height: 100px;
+            width: 100%;
+        }
+        img {
+            padding-left: 40px;
+            padding-right: 60px;
+            padding-bottom: 60px;
+            width:30%;
+            height: 400px;
+            float:right;
+        }
+       
+        li a:hover {
+            background-color: white;
+            font-size: medium;
+        }
+        nav ul{
+            float: left;
+            margin-right: 100px;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 100px;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            color: rgb(42, 61, 165);
+            text-transform: uppercase; 
+        }
+        .details {
+            font-style: normal;
+            font-size: 22px;
+            color: rgb(177, 14, 14);
+        }
+        footer{
+            padding: 5px;
+            text-align: center;
+            font-size: 15px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1> My Portfolio</h1> 
+    <nav> 
+        <ul>
+        
+        <li> <a href="education.html"> Education</a> </li>
+        <li> <a href="skills.html"> Skills</a> </li>
+        <li> <a href="projects.html"> Projects</a> </li>
+        <li> <a href="contact.html"> Contact</a> </li>
+        </ul>
+    </nav>
+    
+    <div class="left"> 
+        <img src="project.jpg" alt="Education">
+        <h4> Project-1 </h4>
+        <p> I have designed a website named "New Normal" using HTML &amp; CSS as a part of IT workshop in MSIT. Next I have worked on a game named "Sliding Image Puzzle" using python &amp; GUI. </p>
+        <div class="details" >
+        <ul>
+            <li><strong>Category</strong>: Web design</li>
+            <li><strong>Client</strong>: College Mentor</li>
+            <li><strong>Project date</strong>: 30 September, 2020</li>
+            <li><strong>Project URL</strong>: <a href="https://sreevani-tirunagari.github.io/new-normal/"> www.new-normal.com</a></li>
+          </ul>
+        </div>
+    </div>
+    <div> 
+        <h4> Project-2 </h4>
+        <p> Designed a game names "Sliding Image Puzzle" using python &amp; GUI. The game has 15 levels. Each level contains 15 slides which has be arranged by moving them and finally acquire a complete image.</p>
+        <div class="details"> 
+            <ul>
+                <li><strong>Category</strong>: Game Application </li>
+                <li><strong>Client</strong>: MSIT Mentors</li>
+                <li><strong>Project date</strong>: 30 October, 2020</li>
+                <li><strong>Project URL</strong>: <a href="https://github.com/sreevani-tirunagari/CSPP-Project.git"> Sliding_Image_Game</a></li>
+              </ul>
+        </div>
+    </div>
+    <div> 
+        <h4> Project-3 </h4>
+        <p>  I have worked on the backend development in the Admission portal project as a part of practicum. I have used fastapi framework to generate halltickets for the registered students and send the emails for all the students once at a time. </p>
+        <div class="details"> 
+            <ul>
+                <li><strong>Category</strong>: Web Application </li>
+                <li><strong>Client</strong>: MSIT Mentors</li>
+                <li><strong>Project date</strong>: 1 May, 2021 to 25 June, 2021</li>
+                <li><strong>Project URL</strong>: <a href="https://docs.google.com/document/d/14cpvikXVrNreuZRGCwldrTWQ4zpoqt6YZf1f7Fc3p-M/edit?usp=sharing"> www.Project-Report.com</a></li>
+              </ul>
+        </div>
+    </div>
+    </body>
+    <footer>  &copy;Copyright <strong> @Sreevani </strong></footer>
+</html>
